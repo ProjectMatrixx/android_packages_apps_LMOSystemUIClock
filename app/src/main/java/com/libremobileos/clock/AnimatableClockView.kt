@@ -730,7 +730,13 @@ constructor(
                 RUBIK_DISTRESSED_CLOCK_ID -> R.font.rubikdistressed
                 RUBIK_GEMSTONES_CLOCK_ID -> R.font.rubikgemstones
                 RUBIK_MARKER_HATCH_CLOCK_ID -> R.font.rubikmarkerhatch
-                else -> R.font.modak // This won't happen
+                SUBWAY_CLOCK_ID -> R.font.subway
+                RIDGE_CLOCK_ID -> R.font.ridge
+                BEAUTY_CLOCK_ID -> R.font.beauty
+                SFPRO_CLOCK_ID -> R.font.sfpro_semibold_rounded
+                SPACEGAME_CLOCK_ID -> R.font.spacegame
+                ACCURATIST_CLOCK_ID -> R.font.accuratist
+                else -> R.font.modak // Default fallback
             }
         }
 
@@ -738,6 +744,8 @@ constructor(
             return when(clockId) {
                 BLAKA_CLOCK_ID -> R.dimen.keyguard_clock_line_spacing_scale_blaka
                 MODAK_CLOCK_ID -> R.dimen.keyguard_clock_line_spacing_scale_modak
+                SFPRO_CLOCK_ID -> R.dimen.keyguard_clock_line_spacing_scale_sfpro
+                SUBWAY_CLOCK_ID -> R.dimen.keyguard_clock_line_spacing_scale_subway
                 else -> R.dimen.keyguard_clock_line_spacing_scale
             }
         }

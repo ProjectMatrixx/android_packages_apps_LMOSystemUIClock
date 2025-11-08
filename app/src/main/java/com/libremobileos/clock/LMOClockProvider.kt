@@ -29,6 +29,12 @@ const val RUBIK_DIRT_CLOCK_ID = "RubikDirtClock"
 const val RUBIK_DISTRESSED_CLOCK_ID = "RubikDistressedClock"
 const val RUBIK_GEMSTONES_CLOCK_ID = "RubikGemstonesClock"
 const val RUBIK_MARKER_HATCH_CLOCK_ID = "RubikMarkerHatchClock"
+const val SUBWAY_CLOCK_ID = "SubwayClock"
+const val RIDGE_CLOCK_ID = "RidgeClock"
+const val BEAUTY_CLOCK_ID = "BeautyClock"
+const val SFPRO_CLOCK_ID = "SFProClock"
+const val SPACEGAME_CLOCK_ID = "SpaceGameClock"
+const val ACCURATIST_CLOCK_ID = "AccuratistClock"
 
 val LMO_CLOCKS = listOf(
     ALBERT_SANS_CLOCK_ID,
@@ -41,6 +47,12 @@ val LMO_CLOCKS = listOf(
     RUBIK_DISTRESSED_CLOCK_ID,
     RUBIK_GEMSTONES_CLOCK_ID,
     RUBIK_MARKER_HATCH_CLOCK_ID,
+    SUBWAY_CLOCK_ID,
+    RIDGE_CLOCK_ID,
+    BEAUTY_CLOCK_ID,
+    SFPRO_CLOCK_ID,
+    SPACEGAME_CLOCK_ID,
+    ACCURATIST_CLOCK_ID,
 )
 
 @Requires(target = ClockProviderPlugin::class, version = ClockProviderPlugin.VERSION)

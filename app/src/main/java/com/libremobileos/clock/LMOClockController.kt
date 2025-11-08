@@ -334,7 +334,13 @@ class LMOClockController(
             RUBIK_DISTRESSED_CLOCK_ID -> ctx.getString(R.string.clock_rubik_distressed_name)
             RUBIK_GEMSTONES_CLOCK_ID -> ctx.getString(R.string.clock_rubik_gemstones_name)
             RUBIK_MARKER_HATCH_CLOCK_ID -> ctx.getString(R.string.clock_rubik_market_hatch_name)
-            else -> "" // Won't happen
+            SUBWAY_CLOCK_ID -> ctx.getString(R.string.clock_subway_name)
+            RIDGE_CLOCK_ID -> ctx.getString(R.string.clock_ridge_name)
+            BEAUTY_CLOCK_ID -> ctx.getString(R.string.clock_beauty_name)
+            SFPRO_CLOCK_ID -> ctx.getString(R.string.clock_sfpro_name)
+            SPACEGAME_CLOCK_ID -> ctx.getString(R.string.clock_spacegame_name)
+            ACCURATIST_CLOCK_ID -> ctx.getString(R.string.clock_accuratist_name)
+            else -> ""
         }
     }
 
@@ -350,7 +356,13 @@ class LMOClockController(
             RUBIK_DISTRESSED_CLOCK_ID -> ctx.getString(R.string.clock_rubik_distressed_description)
             RUBIK_GEMSTONES_CLOCK_ID -> ctx.getString(R.string.clock_rubik_gemstones_description)
             RUBIK_MARKER_HATCH_CLOCK_ID -> ctx.getString(R.string.clock_rubik_market_hatch_description)
-            else -> "" // Won't happen
+            SUBWAY_CLOCK_ID -> ctx.getString(R.string.clock_subway_description)
+            RIDGE_CLOCK_ID -> ctx.getString(R.string.clock_ridge_description)
+            BEAUTY_CLOCK_ID -> ctx.getString(R.string.clock_beauty_description)
+            SFPRO_CLOCK_ID -> ctx.getString(R.string.clock_sfpro_description)
+            SPACEGAME_CLOCK_ID -> ctx.getString(R.string.clock_spacegame_description)
+            ACCURATIST_CLOCK_ID -> ctx.getString(R.string.clock_accuratist_description)
+            else -> ""
         }
     }
 

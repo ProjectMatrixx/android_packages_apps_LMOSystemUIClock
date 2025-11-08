@@ -39,6 +39,30 @@
     <string name="clock_rubik_market_hatch_name">Rubik Marker Hatch</string>
     <string name="clock_rubik_market_hatch_description">Digital Rubik Marker Hatch</string>
 
+    <!-- Subway Clock -->
+    <string name="clock_subway_name">Subway</string>
+    <string name="clock_subway_description">Bold urban style with subway-inspired typography</string>
+
+    <!-- Ridge Clock -->
+    <string name="clock_ridge_name">Ridge</string>
+    <string name="clock_ridge_description">Sharp and edgy design with ridge-like contours</string>
+
+    <!-- Beauty Clock -->
+    <string name="clock_beauty_name">Beauty</string>
+    <string name="clock_beauty_description">Elegant and graceful flowing letterforms</string>
+
+    <!-- SF Pro Clock -->
+    <string name="clock_sfpro_name">SF Pro Rounded</string>
+    <string name="clock_sfpro_description">Modern rounded sans-serif with clean aesthetics</string>
+
+    <!-- Space Game Clock -->
+    <string name="clock_spacegame_name">Space Game</string>
+    <string name="clock_spacegame_description">Futuristic sci-fi inspired typography</string>
+
+    <!-- Accuratist Clock -->
+    <string name="clock_accuratist_name">Accuratist</string>
+    <string name="clock_accuratist_description">Precise and technical geometric design</string>
+
     <!-- Skeleton string format for displaying the time in 12-hour format. -->
     <string name="clock_12hr_format">hm</string>
 
